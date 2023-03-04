@@ -48,3 +48,10 @@
     display: flex;
     justify-content: flex-end;
 }
+
+.section-4-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
