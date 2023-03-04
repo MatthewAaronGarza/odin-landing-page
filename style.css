@@ -38,3 +38,13 @@
     width: auto;
     /* add border solid blue */
 }
+
+.quote-and-author {
+    display: flex;
+    flex-direction: column;
+}
+
+.author-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
