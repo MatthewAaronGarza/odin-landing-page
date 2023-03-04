@@ -1,0 +1,22 @@
+.content-wrapper {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;    
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
