@@ -1,5 +1,5 @@
 /* * {
-    border: solid 2e4057 1px;
+    border: solid black 1px;
 } */
 
 /* .content-wrapper {
@@ -43,10 +43,12 @@ html, body {
 
 .left-content {
     margin-left: 100px;
+    font-size: xx-large;
 }
 
 .right-content {
     margin-right: 100px;
+    margin-left: 50px;
 }
 
 
@@ -77,13 +79,23 @@ html, body {
 
 .boxes {
     display: flex;
-    gap: 15px;
+    gap: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.image-and-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
 }
 
 .info-image {
-    height: 200px;
-    width: auto;
-    /* add border solid blue */
+    max-width: 100%;
+    margin-bottom: 20px;
 }
 
 .quote-and-author {
