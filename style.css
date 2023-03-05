@@ -13,10 +13,20 @@ html, body {
     color: #F6D8AE;
 } 
 
+a:visited { 
+    text-decoration: none; 
+    color: #F6D8AE; 
+   }
 
-/* p {
-    margin: 10px;
-  } */
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+ul a {
+    text-decoration: none;
+}
 
 
 .header {
