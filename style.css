@@ -1,15 +1,24 @@
 /* * {
-    border: solid black 1px;
+    border: solid 2e4057 1px;
 } */
 
-.content-wrapper {
+/* .content-wrapper {
     margin-left: 50px;
     margin-right: 50px;
-}
+} */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    color: #F6D8AE;
+} 
+
+
 
 .header {
     display: flex;
     justify-content: space-between;
+    background-color: #2E4057;
 }
 
 .header-list {
@@ -17,11 +26,44 @@
     display: flex;
     gap: 20px;
     align-items: center;    
+    margin-right: 100px;
 }
+
+.header-logo {
+    margin-left: 100px;
+}
+
+
 
 .section-1 {
     display: flex;
     justify-content: space-between;
+    background-color: #2E4057;
+}
+
+.left-content {
+    margin-left: 100px;
+}
+
+.right-content {
+    margin-right: 100px;
+}
+
+
+.section-2 {
+    background-color: #DA4167;
+}
+
+.section-3 {
+    background-color: #F4D35E;
+}
+
+.section-4 {
+    background-color: #083D77;
+}
+
+.footer {
+    background-color: #083D77;
 }
 
 .boxes-and-texts {
@@ -30,6 +72,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: #2E4057;
 }
 
 .boxes {
@@ -46,6 +89,21 @@
 .quote-and-author {
     display: flex;
     flex-direction: column;
+}
+
+.quote {
+    margin-left: 100px;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 1;
+}
+
+.author {
+    margin-right: 100px;
+}
+
+.quote, .author {
+    color: #2E4057;
 }
 
 .author-wrapper {
