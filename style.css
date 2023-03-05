@@ -12,9 +12,11 @@ html, body {
     padding: 0;
     color: #F6D8AE;
 } 
-p {
-    margin: 0;
-  }
+
+
+/* p {
+    margin: 10px;
+  } */
 
 
 .header {
@@ -61,7 +63,7 @@ p {
 
 .button-1 {
     width: 120px;
-    height: 35px;
+    height: 40px;
     border-radius: 10px;
     font-size: 15px;
     align-self: center;
@@ -164,6 +166,7 @@ p {
     align-items: center;
     
 }
+
 
 .button-2 {
     width: 120px;
